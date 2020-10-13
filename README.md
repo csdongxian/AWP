@@ -28,7 +28,7 @@ python train_trades_cifar.py --data CIFAR10 --data-path DATASET_DIR
 ```
 ## The Leaderboard Under Auto Attack
 
-To verify the effectiveness of AWP further, we evaluate the robustness under a stronger attack, auto-attack [3]. Here we only list Top 10 results on the leadboard (up to 10/13/2020) and our results (see `./auto-attacks` for more results). Compared with the leadboard results, AWP can boost the robustness of the AT and its variants (TRADES, Pre-training, RST, etc.), ranking 1st on both with and without data. Even some AWP-based methods without additional data can surpass the results under additional data. 
+To verify the effectiveness of AWP further, we evaluate the robustness under a stronger attack, auto-attack [3]. Here we only list Top 10 results on the leadboard (up to 10/13/2020) and our results (see `./auto-attacks` for more results). Compared with the leadboard results, AWP can boost the robustness of the AT and its variants (TRADES[2], MART[4], Pre-training[5], RST[6], etc.), ranking 1st on both with and without data. Even some AWP-based methods without additional data can surpass the results under additional data. 
 
 |#    |method / paper           |model     |architecture |clean         |report. |AA  |
 |:---:|---|:---:|:---:|---:|---:|---:|
@@ -55,3 +55,9 @@ To verify the effectiveness of AWP further, we evaluate the robustness under a s
 [2] TRADES: https://github.com/yaodongyu/TRADES/
 
 [3] AutoAttack: https://github.com/fra31/auto-attack
+
+[4] MART: https://github.com/YisenWang/MART
+
+[5] Pre-training: https://github.com/hendrycks/pre-training
+
+[6] RST: https://github.com/yaircarmon/semisup-adv
