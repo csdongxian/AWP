@@ -1,6 +1,6 @@
 # Adversarial Weight Perturbation Helps Robust Generalization
 
-Code for NeurIPS2020 paper "Adversarial Weight Perturbation Helps Robust Generalization" by [Dongxian Wu](https://scholar.google.com/citations?user=ZQzqQqwAAAAJ&hl=en&oi=ao), [Shu-Tao Xia](https://scholar.google.com/citations?user=koAXTXgAAAAJ&hl=en&oi=ao), and [Yisen Wang](https://sites.google.com/site/csyisenwang/).
+Code for NeurIPS 2020 "Adversarial Weight Perturbation Helps Robust Generalization" by [Dongxian Wu](https://scholar.google.com/citations?user=ZQzqQqwAAAAJ&hl=en&oi=ao), [Shu-Tao Xia](https://scholar.google.com/citations?user=koAXTXgAAAAJ&hl=en&oi=ao), and [Yisen Wang](https://sites.google.com/site/csyisenwang/).
 
 ## News
 
@@ -8,7 +8,7 @@ Code for NeurIPS2020 paper "Adversarial Weight Perturbation Helps Robust General
 
 ## What is in this repository
 
-We implement AWP-based AT (AT-AWP) and AWP-based TRADES (TRADES-AWP) on the released codes from robust_overfitting [1] and TRADES [2]. Codes for our AWP-based adversarial training (AT-AWP) are in `at-awp`, and those for AWP-based TRADES (TRADES-AWP) are in `./trades-awp`:
+Codes for our AWP-based adversarial training (AT-AWP) are in `at-awp`, and those for AWP-based TRADES (TRADES-AWP) are in `./trades-awp`:
 - In `./at-awp`, the codes for CIFAR-10, CIFAR-100, and SVHN are in `train_cifar10.py`, `train_cifar100.py`, `train_svhn.py` respectively.
 - In `./trades-awp`, the codes for CIFAR-10 and CIFAR-100 are in `train_trades_cifar.py`.
 
