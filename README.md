@@ -1,10 +1,10 @@
 # Adversarial Weight Perturbation Helps Robust Generalization
 
-Code for NeurIPS 2020 "Adversarial Weight Perturbation Helps Robust Generalization" by [Dongxian Wu](https://scholar.google.com/citations?user=ZQzqQqwAAAAJ&hl=en&oi=ao), [Shu-Tao Xia](https://scholar.google.com/citations?user=koAXTXgAAAAJ&hl=en&oi=ao), and [Yisen Wang](https://sites.google.com/site/csyisenwang/).
+Code for NeurIPS 2020 "[Adversarial Weight Perturbation Helps Robust Generalization](https://arxiv.org/pdf/2004.05884.pdf)" by [Dongxian Wu](https://scholar.google.com/citations?user=ZQzqQqwAAAAJ&hl=en&oi=ao), [Shu-Tao Xia](https://scholar.google.com/citations?user=koAXTXgAAAAJ&hl=en&oi=ao), and [Yisen Wang](https://sites.google.com/site/csyisenwang/).
 
 ## News
 
-10/13/2020 - Our code is released. We will release the arXiv version of our paper soon.
+10/13/2020 - Our code and paper are released.
 
 ## What is in this repository
 
@@ -28,7 +28,9 @@ python train_trades_cifar.py --data CIFAR10 --data-path DATASET_DIR
 ```
 ## The Leaderboard Under Auto Attack
 
-To verify the effectiveness of AWP further, we evaluate the robustness under a stronger attack, auto-attack [3]. Here we only list Top 10 results on the leadboard (up to 10/13/2020) and our results (see `./auto-attacks` for more results). Compared with the leadboard results, AWP can boost the robustness of the AT and its variants (TRADES[2], MART[4], Pre-training[5], RST[6], etc.), ranking 1st on both with and without data. Even some AWP-based methods without additional data can surpass the results under additional data. 
+To verify the effectiveness of AWP further, we evaluate the robustness under a stronger attack, auto-attack [3]. Here we only list Top 10 results on the leadboard (up to 10/13/2020) and our results. Compared with the leadboard results, AWP can boost the robustness of the AT and its variants (TRADES[2], MART[4], Pre-training[5], RST[6], etc.), ranking 1st on both with and without data. Even some AWP-based methods without additional data can surpass the results under additional data. 
+
+More results can be found in [`./auto-attacks`](https://github.com/csdongxian/AWP/tree/main/auto_attacks)
 
 |#    |method / paper           |model     |architecture |clean         |report. |AA  |
 |:---:|---|:---:|:---:|---:|---:|---:|
