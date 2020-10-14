@@ -1,10 +1,10 @@
 # Evaluation under AutoAttack
 
-To verify the effectiveness of AWP further, we evaluate the robustness under a stronger attack, auto-attack. Details can be found in
-"Reliable evaluation of adversarial robustness with an ensemble of diverse parameter-free attacks" in ICML 2020 ([arXiv](https://arxiv.org/abs/2003.01690), [code](https://github.com/fra31/auto-attack)). The results up to 2020/10/13 can be seen below.
+To verify the effectiveness of AWP further, we evaluate the robustness under a stronger attack, [auto-attack](https://github.com/fra31/auto-attack). 
+The results up to 2020/10/13 can be seen below.
 
 ## CIFAR-10 - Linf
-The robust accuracy is evaluated at `eps = 8/255`, except for those marked with * for which `eps = 0.031`, where `eps` is the maximal Linf-norm allowed for the adversarial perturbations. The `eps` used is the same set in the original papers.\
+The robust accuracy is evaluated at `eps = 8/255`.\
 **Note**: ‡ indicates models which exploit additional data for training (e.g. unlabeled data, pre-training).
 
 |#    |method / paper           |model     |architecture |clean         |report. |AA  |
@@ -46,7 +46,7 @@ The robust accuracy is computed at `eps = 8/255` in the Linf-norm.\
 
 
 ## CIFAR-10 - L2
-The robust accuracy is computed at `eps = 0.5` in the L2-norm.
+The robust accuracy is computed at `eps = 0.5` in the L2-norm.\
 **Note**: ‡ indicates models which exploit additional data for training (e.g. unlabeled data, pre-training).
 
 |#    |method / paper  |model     |architecture |clean         |report. |AA  |
