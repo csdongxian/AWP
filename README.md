@@ -50,6 +50,16 @@ More results can be found in [`./auto-attacks`](https://github.com/csdongxian/AW
 |**9**| [(Rice et al., 2020)](https://arxiv.org/abs/2002.11569) **AT**| *available*| WRN-34-20| 85.34| 58| 53.42|
 |**10**| [(Huang et al., 2020)](https://arxiv.org/abs/2002.10319)\*| *available*| WRN-34-10| 83.48| 58.03| 53.34|
 
+## Citing this work
+```
+@inproceedings{wu2020adversarial,
+title={Adversarial Weight Perturbation Helps Robust Generalization},
+author={Dongxian Wu and Shu-Tao Xia and Yisen Wang},
+booktitle={NeurIPS},
+year={2020}
+}
+```
+
 
 ## Reference Code
 [1] AT: https://github.com/locuslab/robust_overfitting
