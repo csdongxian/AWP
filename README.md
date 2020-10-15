@@ -53,10 +53,10 @@ More results can be found in [`./auto-attacks`](https://github.com/csdongxian/AW
 ## Citing this work
 ```
 @inproceedings{wu2020adversarial,
-title={Adversarial Weight Perturbation Helps Robust Generalization},
-author={Dongxian Wu and Shu-Tao Xia and Yisen Wang},
-booktitle={NeurIPS},
-year={2020}
+    title={Adversarial Weight Perturbation Helps Robust Generalization},
+    author={Dongxian Wu and Shu-Tao Xia and Yisen Wang},
+    booktitle={NeurIPS},
+    year={2020}
 }
 ```
 
