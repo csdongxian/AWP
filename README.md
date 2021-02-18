@@ -6,6 +6,14 @@ Code for NeurIPS 2020 "[Adversarial Weight Perturbation Helps Robust Generalizat
 
 10/13/2020 - Our code and paper are released.
 
+## Requisite
+
+This code is implemented in PyTorch, and we have tested the code under the following environment settings:
+
+- python = 3.7.3
+- torch = 1.2.0
+- torchvision = 0.4.0
+
 ## What is in this repository
 
 Codes for our AWP-based adversarial training (AT-AWP) are in `at-awp`, and those for AWP-based TRADES (TRADES-AWP) are in `./trades-awp`:
